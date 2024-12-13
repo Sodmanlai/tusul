@@ -1,0 +1,107 @@
+.href {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.hrof {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hraf {
+  color: orange;
+}
+.nhoi {
+  width: 10vw;
+  height: 50vh;
+}
+.fancy-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  overflow: hidden;
+  font-weight: 500;
+  background-color: #fcbf43;
+  border-radius: 6px;
+  margin-top: 16px;
+  border: none;
+  cursor: pointer;
+}
+.slide-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f77f00;
+  transform: translateX(-100%);
+  transition: all 200ms ease-out;
+}
+.button-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100px;
+  text-align: left;
+  color: white;
+}
+.fancy-button:hover .slide-background {
+  transform: translateX(0);
+}
+.zoz {
+  font-size: 60px;
+}
+.hrof p {
+  margin-top: -20px;
+}
+.muur {
+  position: absolute;
+  right: 0;
+}
+.hetsu {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 230px;
+}
+.zaan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 13vw;
+  height: 25vh;
+  background-color: white;
+  border-radius: 10px;
+
+  flex-direction: column;
+  box-shadow: 0 0 3px 0 black;
+}
+.hav {
+  font-size: larger;
+}
+.fa-solid {
+  font-size: larger;
+}
+.zaan:hover {
+  background: rgb(240, 178, 63);
+  color: white;
+}
+.yooy {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+}
