@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: orange;
+}
+.text {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 15px;
+}
+.garcig-size {
+  font-size: 50px;
+  font-weight: 900;
+}
+.doorh-ug{
+  color: grey;
+  font-size: larger;
+}
+.bodyhoyr{
+  width:30vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+  flex-direction: column;
+  border: solid white;
+  border-radius: 20px;
+  background-color: white;
+
+}
+.dood-garcig{
+  font-size: 25px;
+}
+.icontoi-heseg{
+  display: flex;
+  align-items: center;
+}
